@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta rel="author" href="http://Crunchify.com" content="">
+
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".flip").click(function() {
+			$(".panel").slideToggle("slow");
+		});
+	});
+</script>
+
+<style type="text/css">
+div.panel,p.flip {
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	background: #ddd;
+	border: solid 1px #fff;
+}
+
+div.panel {
+	widht: 50%;
+	height: 100px;
+	display: none;
+}
+</style>
+</head>
+<body>
+	<div class="panel">
+		<p>Thank You for choosing Our website to view movies that are Old and New</p>
+	</div>
+	<br>
+	<p class="flip">Click here to Show/Hide Panel</p>
+  <br>
+	<br>
+ </body>
+</html>
+<head>
+	<div data-role="index1.html" data-theme="a"></div>
+<link rel="stylesheet" href="themes/mythemes.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h1{text-align:center;font-family:Impact, sans-serif;color:#000000;background-color:#c0c0c0;}
+p {text-align:left;font-family:Times, serif;font-size:16px;font-style:normal;font-weight:normal;color:#000000;background-color:#c0c0c0;}
+</style>
+</head>
+<body>
+<center>
+<h1>Movies On Demand </h1>
+<center>
+<img src="http://l7.alamy.com/zooms/d0cf7a17de7e41eeb40704408203e87b/the-word-movie-written-in-vintage-ink-stained-letterpress-type-f75j3w.jpg" alt="google.com" style="width:600px;height:200px;">
+</center>
+<a href="http://sotd.us/shahadalkafil/MySite/moviegeners.html">Movie Geners</a>
+<a href="http://sotd.us/shahadalkafil/MySite/gaming.html">Gaming</a>
+<a href="http://sotd.us/shahadalkafil/MySite/dvddelivery.html">DVD Delivery</a>
+<a href="url">Movie Request</a>
+<a href="http://sotd.us/shahadalkafil/MySite/membershipform.html">Memberyship Form </a>
+<a href="url">Survey</a>
+
+</form></a>
+<p>Movies on Demand will provide you with the newest and oldest movies all while being in the comfort of your own home. We have something for everyone in your family  to watch.</p>
+</center>
+
+<h2>Movie Search</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Movies.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="#" class="header">A</a></li>
+  <li><a href="#">A Beautiful Life</a></li>
+  <li><a href="#">A Knights tale</a></li>
+
+  <li><a href="#" class="header">B</a></li>
+  <li><a href="#">Back to the future</a></li>
+  <li><a href="#">Batman</a></li>
+
+  <li><a href="#" class="header">C</a></li>
+  <li><a href="#">Cape fear</a></li>
+  <li><a href="#">Chocolate</a></li>
+  <li><a href="#">Clueless</a></li>
+</ul>
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+<div id="section1" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+
+<div data-role="footer"
+  <p>All Rights Reserved, 2017</p>
+  <p>Contact information: <a href="mailto:shahadalkafil@gmail.com.com">
+ Shahad Alkafil</a>.</p>
+</div>
+</body>
+</html>
